@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
 import Introduction from './Introduction';
-
+import imageUrl from '../../public/gym_picture.png';
 const HeroSection = () => {
   return (
     <div className='flex h-full w-full flex-col items-center gap-5'>
@@ -20,7 +20,15 @@ const HeroSection = () => {
       </div>
       {/* gym image */}
       <div className='relative aspect-[1.36] w-full'>
-        <Image src='/gym_picture.png' fill className='object-cover' alt='gym' />
+        <Image
+          src={imageUrl}
+          sizes='100vw'
+          placeholder='blur'
+          fill
+          priority
+          className='object-cover'
+          alt='gym'
+        />
       </div>
       <Introduction />
     </div>

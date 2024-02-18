@@ -5,7 +5,7 @@ import { FooterItemInterface } from '@/interfaces';
 
 const Footer = () => {
   return (
-    <div className='mt-14 flex h-[599px] flex-col items-center gap-10'>
+    <div className='mt-14 flex h-full flex-col items-center gap-10'>
       <h2 className='text-center text-3xl'>צור קשר</h2>
 
       {footerItems.map((footerItem: FooterItemInterface) => (

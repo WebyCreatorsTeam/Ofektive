@@ -11,7 +11,6 @@ const ClientImages = () => {
           className='relative aspect-square w-[318px] rounded-xl'
         >
           <Image
-            priority
             className='rounded-[75px] border-2 border-black object-contain'
             src={client.image_src}
             fill
