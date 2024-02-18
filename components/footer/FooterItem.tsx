@@ -14,10 +14,10 @@ const FooterItem = ({
   return (
     <span className='flex flex-col items-center gap-3'>
       <Image src={svg_source} width={32} height={32} alt={svg_alt} />
-      <h3 className='text-ofektive-red text-xl'>{title}</h3>
+      <h3 className='text-xl text-ofektive-red'>{title}</h3>
       <Link
         href={link}
-        className='flex cursor-pointer text-7xl gap-1.5'
+        className='flex cursor-pointer gap-1.5 text-7xl'
         target='_blank'
         rel='noopener noreferrer'
       >

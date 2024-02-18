@@ -1,4 +1,4 @@
-import InstagramLogo from './app/components/footer/InstagramLogo';
+import InstagramLogo from './components/footer/InstagramLogo';
 import { ClientImageInterface, FooterItemInterface } from './interfaces';
 import Image from 'next/image';
 export const clients: ClientImageInterface[] = [
