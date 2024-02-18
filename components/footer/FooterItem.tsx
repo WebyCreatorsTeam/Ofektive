@@ -17,7 +17,7 @@ const FooterItem = ({
       <h3 className='text-xl text-ofektive-red'>{title}</h3>
       <Link
         href={link}
-        className='flex cursor-pointer gap-1.5 text-7xl'
+        className='flex cursor-pointer gap-1.5 lg:text-7xl'
         target='_blank'
         rel='noopener noreferrer'
       >
