@@ -6,7 +6,7 @@ import { FooterLogoT } from '@/types';
 
 const FooterLogos = () => {
   return (
-    <div className='flex w-full items-center justify-center gap-5 sm:gap-[30px]'>
+    <div className='flex w-full items-center justify-center gap-5 lg:gap-[30px]'>
       {footerLogoArray.map((footerLogo: FooterLogoT) => (
         <span key={footerLogo.svg_alt}>
           <FooterMobileLogoItem

@@ -9,7 +9,7 @@ const FooterDesktopLogoItem = ({
   footerLogo: FooterLogoT;
 }) => {
   return (
-    <Link target='_blank' className='hidden sm:block' href={link}>
+    <Link target='_blank' className='hidden lg:block' href={link}>
       <Image
         width={desktop_width}
         height={desktop_width}

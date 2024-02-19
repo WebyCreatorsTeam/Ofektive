@@ -9,7 +9,7 @@ const FooterMobileLogoItem = ({
   footerLogo: FooterLogoT;
 }) => {
   return (
-    <Link target='_blank' className='sm:hidden' href={link}>
+    <Link target='_blank' className='lg:hidden' href={link}>
       <Image
         width={mobile_width}
         height={mobile_width}
