@@ -12,10 +12,10 @@ export const metadata: Metadata = {
     apple: '/apple-touch-icon.png',
   },
   manifest: '/site.webmanifest',
-  robots:{
+  robots: {
     index: true,
-    follow: true
-  }
+    follow: true,
+  },
 };
 
 const noto_sans_hebrew = Noto_Sans_Hebrew({
