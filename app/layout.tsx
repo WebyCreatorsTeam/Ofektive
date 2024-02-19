@@ -1,4 +1,4 @@
-import type { Metadata } from 'next';
+import type { Metadata, Viewport } from 'next';
 import { Noto_Sans_Hebrew } from 'next/font/google';
 import './globals.css';
 
@@ -16,6 +16,10 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
+};
+
+export const viewport: Viewport = {
+  themeColor: '#614e54',
 };
 
 const noto_sans_hebrew = Noto_Sans_Hebrew({

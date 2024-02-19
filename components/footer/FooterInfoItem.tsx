@@ -28,19 +28,14 @@ const FooterInfoItem = ({
           height={50}
           alt={svg_alt}
         />
-        <h3 className='text-xl text-ofektive-red sm:text-4xl'>{title}</h3>
+        <h3 className='text-xl text-ofektive-red sm:text-3xl'>{title}</h3>
         <Link
           href={link}
-          className='flex cursor-pointer flex-col gap-1.5 sm:text-4xl'
+          className='flex cursor-pointer flex-col  gap-1.5 sm:text-balance sm:text-3xl'
           target='_blank'
           rel='noopener noreferrer'
         >
-          {text
-            .toString()
-            .split(',')
-            .map((text, index) => (
-              <span key={index}>{text}</span>
-            ))}
+          {text}
         </Link>
       </span>
     </div>

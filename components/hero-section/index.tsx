@@ -21,7 +21,7 @@ const HeroSection = () => {
         </div>
       </div>
       {/* gym image */}
-      <div className='relative aspect-[1.36] w-full'>
+      <div className='relative aspect-[1.36] w-full border-black sm:w-full sm:max-w-[988px] lg:border-4'>
         <Image
           src={imageUrl}
           sizes='100vw'
