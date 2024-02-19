@@ -73,7 +73,7 @@ export const footerLogoArray: FooterLogoT[] = [
   {
     svg_src: '/whatsapp_logo.svg',
     svg_alt: 'whatsapp logo',
-    link: 'https://wa.me/972528380789?text=היי,%20התעניינתי%20באימון%20נא%20לחזור%20לאלי',
+    link: 'https://wa.me/972528380789?text=היי%20אני%20פונה%20אלייך%20מהאתר%20לגבי%20אימון',
     ratio: '1/0.98',
     mobile_width: 31.82,
     desktop_width: 48.8,
